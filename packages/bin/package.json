@@ -1,0 +1,36 @@
+{
+  "name": "@twoke/create-webrobot",
+  "version": "0.0.2",
+  "description": "this is command about created webrobot config",
+  "main": "dist/index.cjs",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "bin": {
+    "create-webrobot": "./dist/index.cjs"
+  },
+  "files": [
+    "./dist/*.cjs",
+    "./assets/*",
+    "./README.md"
+  ],
+  "keywords": [
+    "webrobot",
+    "command",
+    "creator"
+  ],
+  "author": "TwoKe945@163.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TwoKe945/create-webrobot.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^9.4.1",
+    "prompts": "^2.4.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "case_name": "测试脚本",
+  "case_type": "sourcecode",
+  "case_sourcecode": "alert('脚本执行了');\n",
+  "case_process": [],
+  "control_url": "",
+  "sourcecode_url": "*",
+  "start_inject": true
+}
