@@ -1,15 +1,9 @@
 {
-  "name": "create-web-robot",
+  "name": "create-webrobot",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.cjs",
   "scripts": {
     "build": "unbuild"
-  },
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs"
-    }
   },
   "keywords": [],
   "author": "",
