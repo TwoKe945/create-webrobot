@@ -20,8 +20,11 @@ importers:
 
   packages/bin:
     specifiers:
+      '@twoke/create-webrobot': 'link:'
       commander: ^9.4.1
       prompts: ^2.4.2
+    dependencies:
+      '@twoke/create-webrobot': 'link:'
     devDependencies:
       commander: 9.4.1
       prompts: 2.4.2
